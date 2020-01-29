@@ -1,0 +1,155 @@
+header{
+	padding-top: 30px;
+	border-bottom: 8px solid #e4e4e4;
+	display: block;
+}
+.title{
+	font-family: 'Kaushan Script', cursive;
+
+}
+.title h1{
+	font-size: 40px;
+	color: #505050;
+	
+}
+.menus{
+	font-family: 'PT Serif', serif;
+}
+.menus ul{
+	 list-style: none;
+}
+.menus ul li{
+	display: inline-block;
+    margin: 15px 27px;
+    color: #6b93a6;
+}
+.menus ul li a{
+	text-decoration: none;
+}
+
+.orangepart{
+	background-color: #ee4a3f;
+}
+.row-one-left h1{
+	padding-top: 40px;
+    color: #fff;
+}
+.row-one-left img{
+	padding-top: 30px;	
+}
+.row-one-left p{
+	padding-top: 30px;
+    color: #fff;
+}
+.row-one-right{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.row-one-right img{
+	width: 360px;
+	padding-top: 93px;
+	padding-left: 25px;
+}
+
+.row-two-left{
+padding-top: 40px;
+	padding-bottom: 40px;
+}
+.row-two-left label{
+font-size: 18px;
+    color: #fff;
+    margin: 18px 0px;
+}
+.row-two-left input{
+	padding: 15px;
+    background: #ff6258;
+    width: 100%;
+    border:none;
+}
+.row-two-right{
+padding-top: 40px;
+	padding-bottom: 40px;
+}
+.row-two-right label{
+font-size: 18px;
+    color: #fff;
+    margin: 18px 0px;
+}
+.row-two-right input{
+	padding: 15px;
+	border:none;
+    background: #ff6258;
+    width: 100%;
+
+}
+.row-two-btn{
+	padding-top: 100px;   
+}
+.btn{
+	font-family: 'Kaushan Script', cursive;
+	color: #fff;
+    font-size: 35px;
+     margin-top: 65px;
+}
+footer{
+	 text-align: center;
+    background-color: #ef4035;
+    padding: 20px 0 20px;
+}
+footer p{
+	color: #fff;
+}
+
+@media(min-width: 320px) and (max-width: 500px){
+	.title h1{
+		font-size: 40px;
+		color: #505050;
+		text-align: center;
+
+	}
+	.menus{
+		font-size: 15px;
+	}
+	.menus ul li{
+		    margin: 15px;
+	}
+	.row-one-left h1{
+		padding-top: 40px;
+    	color: #fff;
+    	text-align: center;
+	}
+	.row-two-btn{
+		padding-top: 0px;
+		text-align: center;
+	}
+}
+@media(min-width: 500.1px) and (max-width: 768px){
+	
+	.menus{
+		font-size: 18px;
+	}
+	.menus ul li{
+		    margin: 18px;
+	}
+	.title h1{
+		font-size: 40px;
+		color: #505050;
+		text-align: center;
+
+	}
+	.row-two-btn{
+		padding-top: 0px;
+		text-align: center;
+	}
+}
+@media(min-width: 769px) and (max-width: 1200px){
+
+	.menus{
+		font-size: 15px;
+	}
+	.menus ul li{
+		    margin: 8px;
+	}
+	
+}

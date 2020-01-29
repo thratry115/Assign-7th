@@ -1,0 +1,210 @@
+header{
+	padding-top: 70px;
+	border-bottom: 8px solid #e4e4e4;
+	display: block;
+	background-image: url(../img/homepage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.title{
+	font-family: 'Kaushan Script', cursive;
+}
+.title h1{
+		font-size: 40px;
+		color: #4df31eed;
+		text-align: center;
+}
+.menus{
+	font-family: 'PT Serif', serif;
+}
+.menus ul{
+	 list-style: none;
+}
+.menus ul li{
+	display: inline-block;
+	margin: 15px 27px;
+	color: #ffffff;
+}
+.menus ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.header-detail{	
+	padding-top: 110px;
+}
+.header-detail h1{
+	background-color: rgb(0,0,0,0.5);
+	padding: 15px;
+	font-size: 44px;
+	font-weight: 400;
+	text-align: center;
+	color: #e3e3e2;
+}
+.header-detail p{
+	padding-top: 30px;
+	color: #fff;
+}
+.header-detail span{
+	padding-top: 21px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #ffffff;
+	display: block;
+	width: 5%;
+}
+.header-detail button{
+	margin-bottom: 136px;
+	color: #fff;
+	margin-top: 40px;
+	padding: 15px 90px;
+	background-color: transparent;
+	border: 1px solid white;
+}
+header:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgb(0,0,0,0.6);
+}
+.white{
+	background-color: #e7e1e1;
+	padding: 50px 0px 0px;
+}
+.white-left h1{		
+	padding-top: 10px;
+	color: #333333;
+	line-height: 1;
+	font-size: 44px;
+}
+.white-left span{
+	padding-top: 12px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #161616;
+	display: block;
+	width: 5%;
+}
+.pera{
+	 margin: 50px 0px 0px;
+	 width: 70%;
+}
+.pera p{
+	 color: #6c6464;
+    font-size: 15px;
+}
+.parent{
+	position: relative;
+	top: 61px;
+	right: 228px;
+}
+.parent img{
+	width: 890px;
+}
+.child{
+	position: absolute;
+	top: 18%;
+	left: 69%;
+}
+.child img{
+	width: 392px;
+}
+.gray{
+	background-color: #28282e;
+	padding: 86px 0px 40px;
+}
+.gray-left h1{
+	padding-top: 10px;
+	color: #ffffff;
+	line-height: 1;
+	font-size: 47px;
+}
+.gray-left span{
+	padding-top: 21px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #ffffff;
+	display: block;
+	width: 5%;
+}
+.pera-2{
+	 margin: 50px 0px 0px;
+	 width: 60%;
+}
+.pera-2 p{
+	 color: #ffffff;
+	 font-size: 15px;
+}
+.gray-left button{
+	margin-bottom: 50px;
+	color: #fff;
+	margin-top: 40px;
+	padding: 15px 90px;
+	background-color: transparent;
+	border: 1px solid white;
+}
+.gray-right{
+	padding-top: 75px;
+}
+.parent-2{
+	position: relative;
+    width: 700px;
+    top: 50px;
+    right: 116px;
+}
+.child-2{
+	position: absolute;
+    top: 30px;
+}
+.child-2 img{
+	width: 715px;
+}
+footer{
+	 text-align: center;
+    background-color: #ef4035;
+    padding: 20px 0 20px;
+}
+footer p{
+	color: #fff;
+}
+
+
+/*mobile device*/
+@media(min-width: 320px) and (max-width: 500px){
+	
+	.menus{
+		font-size: 15px;}
+	.menus ul li{
+		    margin: 15px;}
+	.child-2 img{
+	width: 550px;
+}
+}
+/*small device*/
+@media(min-width: 500.1px) and (max-width: 768px){
+	
+	.menus{
+		font-size: 18px;}
+	.menus ul li{
+		    margin: 18px;}
+	
+}
+/*medium device*/
+@media(min-width: 769px) and (max-width: 1200px){
+	.title h1{
+		font-size: 40px;
+		color: #25f31e;
+		text-align: left;}
+	.menus{
+		font-size: 15px;}
+	.menus ul li{
+		    margin: 8px;}
+	
+}
+/*large device*/
+@media(min-width: 1200px){
+	.title h1{
+	font-size: 50px;
+	color: #25f31e;
+	text-align: left;}
+}
+/*

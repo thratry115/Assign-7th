@@ -1,0 +1,131 @@
+header{
+	padding-top: 30px;
+	border-bottom: 8px solid #e4e4e4;
+	display: block;
+}
+.title{
+	font-family: 'Kaushan Script', cursive;
+
+}
+.title h1{
+		font-size: 40px;
+		color: #505050;
+		text-align: center;
+}
+.menus{
+	font-family: 'PT Serif', serif;
+}
+.menus ul{
+	 list-style: none;
+}
+.menus ul li{
+	display: inline-block;
+    margin: 15px 27px;
+    color: #6b93a6;
+}
+.menus ul li a{
+	text-decoration: none;
+}
+.row-left{
+	padding-top: 56px;
+}
+.row-left h1{
+	font-weight: 700;
+	font-size: 45px;
+}
+.row-left p{
+	padding-top: 70px;
+	color: gray;
+}
+.row-right{
+	padding-top: 50px;
+}
+.parent{
+	position: relative;
+	padding-top: 40px;
+}
+.parent img{
+	width: 263px;
+	padding: 43px 0px;
+}
+.child{
+	position: absolute;
+	bottom: 10%;
+	left: 27%;
+}
+.child img{
+	width: 390px;
+}
+.row-two{
+	color: gray;
+    padding-top: 70px;
+}
+footer{
+	 text-align: center;
+    background-color: #ef4035;
+    padding: 20px 0 20px;
+}
+footer p{
+	color: #fff;
+}
+/*mobile device*/
+@media(min-width: 320px) and (max-width: 500px){
+	
+	.menus{
+		font-size: 15px;
+	}
+	.menus ul li{
+		    margin: 15px;
+	}
+	.row-one-left h1{
+		padding-top: 40px;
+    	color: #fff;
+    	text-align: center;
+	}
+	.row-two-btn{
+		padding-top: 0px;
+		text-align: center;
+	}
+	.row-left h1{
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	}
+}
+/*small device*/
+@media(min-width: 500.1px) and (max-width: 768px){
+	
+	.menus{
+		font-size: 18px;
+	}
+	.menus ul li{
+		    margin: 18px;
+	}
+	
+	.row-two-btn{
+		padding-top: 0px;
+		text-align: center;
+	}
+}
+/*medium device*/
+@media(min-width: 769px) and (max-width: 1200px){
+	.title h1{
+	font-size: 40px;
+	color: #505050;
+	text-align: left;
+}
+	.menus{
+		font-size: 15px;
+	}
+	.menus ul li{
+		    margin: 8px;
+	}
+	
+}
+@media(min-width: 1200px){
+	.title h1{
+	font-size: 45px;
+	color: #505050;
+	text-align: left;
+}
+}
